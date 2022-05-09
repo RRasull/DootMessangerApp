@@ -19,6 +19,7 @@ body {
 &:before {
   box-sizing: border-box;
 }
+
 .clearfix {
   &:after {
     content: "";
@@ -51,7 +52,7 @@ a {
   position: absolute;
   padding: 90px 70px 50px 70px;
   background: rgba(40, 57, 101, 0.9);
-  
+
   .login-form {
     max-width: 525px;
     min-height: 670px;
@@ -181,7 +182,6 @@ a {
       background: rgba(255, 255, 255, 0.1);
     }
     input[data-type="password"] {
-      text-security: circle;
       -webkit-text-security: circle;
     }
     label {
